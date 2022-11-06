@@ -6,7 +6,7 @@ export default function NavBar() {
 
   return (
     <header>
-      <h1>Repolist</h1>
+      <h1>GITHUB Portfolio</h1>
       <nav data-visible={isopen}>
         <ul>
           <li className="nav_list">
