@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { HelmetProvider ,Helmet} from "react-helmet-async";
 import { Link, Outlet } from "react-router-dom";
-import { Footer, NavBar } from "../components";
+import { Footer, NavBar } from "../component";
 import useFetch from "../hooks/useFetch";
 import "./repositorylist.css";
 

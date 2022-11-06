@@ -1,6 +1,6 @@
 import{ useState } from "react";
 import { ErrorBoundary } from "react-error-boundary";
-import { Footer, NavBar } from "../components";
+import { Footer, NavBar } from "../component";
 import {HelmetProvider,Helmet} from"react-helmet-async";
 import ErrorFallBack from "./ErrorFallBack";
 
