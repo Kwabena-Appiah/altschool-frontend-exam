@@ -23,8 +23,9 @@ Task requirements :
 - CSS custom properties
 - Mobile-first workflow
 
-LIVE URL: https://godfred-ofosu-appiah-altschoolexam.netlify.app/
-Github link: https://github.com/Kwabena-Appiah/altschool-frontend-exam
+-LIVE URL: (https://godfred-ofosu-appiah-altschoolexam.netlify.app/)
+-Github link: (https://github.com/Kwabena-Appiah/altschool-frontend-exam)
+
 ## Author
 
 - Godfred Ofosu-Appiah
