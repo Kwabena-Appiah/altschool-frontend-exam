@@ -27,7 +27,7 @@ Task requirements :
 ## Author
 
 - Godfred Ofosu-Appiah
-- Linkedin -[ibimina hart](https://www.linkedin.com/in/godfred-ofosu-appiah)
+- Linkedin -[Godfred Ofosu-Appiah](https://www.linkedin.com/in/godfred-ofosu-appiah)
   
 
 
