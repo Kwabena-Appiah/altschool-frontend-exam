@@ -1,6 +1,6 @@
 # Altschool Frontend Engineering- Exam Project
 
-# My Repolist
+# My GITHUB Portfolio
 
  Altschool second semester 
  
