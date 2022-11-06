@@ -11,7 +11,7 @@ export default function AppRoute() {
       <Routes>
           <Route path="/"  element={<Home/>}/>
         <Route path="repositories"  element={<RepositoryList />}>
-          <Route path="ibimina/:id" element={<RepositoryDetails />} />
+          <Route path="kwabena-appiah/:id" element={<RepositoryDetails />} />
         </Route>
         <Route path="test" element={<TestError />} />
         <Route path="*" element={<Redirect />} />

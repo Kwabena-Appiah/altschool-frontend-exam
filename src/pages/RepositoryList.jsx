@@ -8,7 +8,7 @@ import "./repositorylist.css";
 
 export default function RepositoryList() {
   const [page, setPage] = useState(1);
-  let url = `https://api.github.com/users/ibimina/repos?page=${page}&per_page=10`;
+  let url = `https://api.github.com/users/kwabena-appiah/repos?page=${page}&per_page=10`;
   const { state } = useFetch(url);
   const { loading, docs } = state;
   let pages = 8;
@@ -29,7 +29,7 @@ export default function RepositoryList() {
               docs.map((doc) => (
                 <div key={doc.id} className="repository">
                   <Link
-                    to={`kwabena-appiah/${doc.name}`}
+                    to={`kwabena/${doc.name}`}
                     state={{ doc: doc }}
                     className="flex no-space lin"
                   >
@@ -67,8 +67,7 @@ export default function RepositoryList() {
               <button
                 disabled={page >= 8}
                 onClick={() => setPage((prev) => prev + 1)}
-                className="btn"
-              >
+                className="btn">
                 next
               </button>
             </div>

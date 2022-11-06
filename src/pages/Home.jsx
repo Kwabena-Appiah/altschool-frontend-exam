@@ -1,5 +1,5 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { NavBar, Profile, Footer } from "../components";
+import { NavBar, Profile, Footer } from "../component";
 
 export default function Home() {
   return (

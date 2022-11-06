@@ -7,7 +7,7 @@ import ErrorFallBack from "./ErrorFallBack";
 export default function TestError() {
   const [user, setUser] = useState("");
   const Bom = ({ user }) => {
-    if (user === "kwabena-appiah") {
+    if (user === "kwabena") {
        throw new Error("oh no?");
     } else {
       return    <p className="hello">Hello {user} </p>    
@@ -23,12 +23,12 @@ export default function TestError() {
         </Helmet>
         <NavBar />
         <div className="test">
-          <h2 className="title">Let's Test your Error Boundary 🤔</h2>
+          <h2 className="title">Test your Error Boundary</h2>
           <input
             type="text"
             value={user}
             onChange={(e) => setUser(e.target.value)}
-            placeholder="Don't enter kwabena-appiah"
+            placeholder="Don't enter kwabena"
           />
           <ErrorBoundary
             FallbackComponent={ErrorFallBack}
